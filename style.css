@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    
+}
+
+
+.bk{
+    background:url('weather.jpg');
+    width:100%;
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* font-size: 34px; */
+    flex-direction: column;
+    height: 100vh;
+}
+
+.bk h1{
+    margin-bottom: 34px;
+    letter-spacing: 3pt;
+    color:rgb(225, 27, 12)
+}
+.bk h2{
+    margin-bottom:45px;
+    letter-spacing: 2px;
+    color:rgb(33, 94, 5);
+}
+
+.srch{
+    margin-bottom:64px;
+}
+
+.srch .sr{
+    width:334px;
+    height: 34px;
+    background-color: rgb(122, 236, 194);
+    border:2px solid rgb(10, 10, 10);
+    border-radius:23px;
+    display: flex;
+    text-align:center;
+    font-size: 23px;
+    color:greenyellow;
+
+}
+
+.res{
+    letter-spacing: 1px;
+      background-color: blanchedalmond;
+}
+
+button{
+    background-color: rgb(63, 132, 192);
+    border:3px solid black;
+    width:130px;
+    height: 34px;
+    border-radius:13px;
+    font-weight: 500;
+    font-size:larger;
+    color:white;
+    margin:0 23px;
+    transition:color 0.4s;
+    /* box-shadow: 0.4s; */
+    
+    
+}
+
+
+@media screen and (max-width:500px){
+    label{
+        font-size:35px;
+    }
+}
+@media screen and (max-width:1000px){
+    button{
+        display:flex;
+        margin-bottom:20px;
+        justify-content:center;
+    }
+}
